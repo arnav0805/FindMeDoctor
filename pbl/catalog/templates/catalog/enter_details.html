@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter location</title>
+</head>
+<body>
+    <h1>Enter location</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location">
+        <br>
+        <label for="type_of_doctor">Type of Doctor</label>
+        <input type="text" id="type_of_doctor" name="type_of_doctor">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
