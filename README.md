@@ -63,9 +63,6 @@ Ensure you have the following installed:
     ```bash
     python manage.py runserver
     ```
-
-6. Access the application at `http://127.0.0.1:8000/`.
-
 ---
 
 ## Usage
